@@ -1,4 +1,3 @@
-import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 
 class MainHome extends StatelessWidget {
@@ -18,7 +17,7 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: WindowBorder(
+      body: Container(
         color: Colors.blue,
         child: const Center(
           child: Text('Hello World'),
